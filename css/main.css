@@ -9,26 +9,43 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: whitesmoke;
 }
 .main{
+    background-size: cover;
     height: 100vh;
-    background-color: whitesmoke;
+    background-position: center;
+    background-image: url('../images/p1.jpeg');
 }
 .top-bar{
     padding-top: 30px;
+    color: white;
+}
+.top-bar h1{
+    
+}
+
+.btnLogin{
+    background-color: orange;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btnLogin:hover{
+    background-color: rgb(192, 130, 15);
 }
 .LoginForm{
-    background-color: rgb(43, 214, 55);
+    background-color: rgba(63, 215, 17, 0.533);
     padding: 10px;
     border-radius: 10px;
     width: 36%;
-    box-shadow: 2px 3px 5px gray;
+    box-shadow: 2px 3px 5px black;
 }
 .form-control{
     margin: 10px;
     padding: 10px;
-    width: 85%;
+    width: 90%;
 }
 .input{
     width: 100%;
